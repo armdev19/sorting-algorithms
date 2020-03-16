@@ -9,7 +9,6 @@ def bubbleSort(mList):
             if mList[j] > mList[j + 1]:
                 mList[j], mList[j + 1] = mList[j + 1], mList[j]
             # print(mList)
-    mTime.endlog()
     return mList
 
 mNewList = bubbleSort(mDataForSort).copy()
